@@ -7,12 +7,21 @@
 .portfolio__container {
     display: flex;
     min-height: 200px;
+    margin-bottom: 50px;
 }
 
 .portfolio__number {
+    margin: 0;
     max-width: 500px;
     width: 100%;
+    min-height: 100px;
+    height: 100%;
+    display: flex;
     color: #FFFFFF;
+
+    /* vertical-align: top; */
+    font-size: 200px;
+    line-height: 210px;
 
     /* font-weight: 400;
     font-size: 18px;
@@ -46,6 +55,8 @@
 
 .portfolio__text {
     color: #FFFFFF;
+    text-align: justify;
+    text-indent: 20px;
 }
 
 .portfolio__link {

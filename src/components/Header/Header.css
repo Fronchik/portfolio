@@ -6,6 +6,10 @@
 
 .header__name {
     color: #FFFFFF;
+    font-weight: 400;
+    /* font-size: 18px;
+    line-height: 20px;
+    text-align: left; */
 }
 
 .header__nav {
