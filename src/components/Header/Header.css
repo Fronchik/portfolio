@@ -1,15 +1,28 @@
 .header {
-    min-height: 50px;
+    margin: 30px 70px 0;
+    max-height: 30px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
 .header__name {
-    color: #FFFFFF;
-    font-weight: 400;
-    /* font-size: 18px;
+    margin: 0;
+
+    font-weight: 100;
+    font-size: 17px;
     line-height: 20px;
-    text-align: left; */
+    color: #c305bc;;
+}
+
+.header__name:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .header__nav {
@@ -24,11 +37,22 @@ a:link, a:visited {
 }
 
 .header__link {
-    color: #FFFFFF;
+    color: #c305bc;
     cursor: pointer;
 }
 
 .header__link:hover {
     opacity: 0.7;
-    transition: 1s;
+    transition: 0.5s;
+}
+
+.header__title {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+@media (max-width: 580px) {
+    .header {
+        flex-direction: column;
+    }
 }

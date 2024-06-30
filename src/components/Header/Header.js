@@ -6,7 +6,11 @@ function Header() {
     return (
 
         <header className="header">
-            <h2 className="header__name">Назарьева Анна</h2>
+            <div className="header__logo">
+                <a href="#me">
+                    <p className="header__name">Назарьева Анна</p>
+                </a>
+            </div>
             <div className="header__nav">
                 <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
                     <div className="header__link">

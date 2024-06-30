@@ -4,7 +4,7 @@ import aboutMePhoto from '../../images/photo.jpg';
 
 function AboutMe() {
     return (
-        <section id="student" className="aboutMe">
+        <section className="aboutMe">
             <h1 className="aboutMe__title">
                 <span>JUNIOR</span>
                 <span>FRONTEND</span>
@@ -21,7 +21,7 @@ function AboutMe() {
                 <li className="aboutMe__stack-item">Express.js</li>
             </ul>
             <div className="aboutMe__container">
-                <h2 className="aboutMe__name">Обо мне</h2>
+                <h2 id="me" className="aboutMe__name">Обо мне</h2>
                 <div className="aboutMe__info">
                     <p className="aboutMe__info-text">Я начинающий фронтенд-разработчик. Недавно я закончила курсы в Яндекс Практикуме, где получила знания и навыки в области веб-разработки.
                         Сейчас я участвую в проекте от Яндекс Мастерской, что позволяет мне применять свои знания на практике и развиваться в команде профессионалов.

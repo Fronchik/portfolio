@@ -17,12 +17,14 @@ function Portfolio() {
                         после регистрации пользователя, на сайте доступна поисковая система фильмов. Пользователи имеют возможность добавлять фильмы в избранное,
                         а также использовать фильтр "короткометражки" для поиска фильмов определенной длительности.
                     </p>
-                    <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub</p>
-                    </a>
-                    <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub Pages</p>
-                    </a>
+                    <div className="portfolio__pages">
+                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub</p>
+                        </a>
+                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub Pages</p>
+                        </a>
+                    </div>
                     <img src={portfolioFilm} alt="Стрелка" className="portfolio__img" />
                 </div>
             </div>
@@ -34,12 +36,14 @@ function Portfolio() {
                         получает возможность делиться своими путешествиями, загружая фотографии на сайт.
                         Кроме того, пользователь может оценить понравившиеся посты, поставив лайк, а также удалить собственные фотографии.
                     </p>
-                    <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub</p>
-                    </a>
-                    <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub Pages</p>
-                    </a>
+                    <div className="portfolio__pages">
+                        <a href="https://github.com/Fronchik/react-mesto-api-full-gha" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub</p>
+                        </a>
+                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub Pages</p>
+                        </a>
+                    </div>
                     <img src={portfolioMesto} alt="Стрелка" className="portfolio__img" />
                 </div>
             </div>
@@ -52,12 +56,14 @@ function Portfolio() {
                         Сайт описывает интересные места, которые можно посетить во время путешествия по России.
                         Пользователи могут ознакомиться с различными достопримечательностями, информацией о городах, культуре и истории страны.
                     </p>
-                    <a href="https://github.com/Fronchik/russian-travel" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub</p>
-                    </a>
-                    <a href="https://fronchik.github.io/russian-travel/" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub Pages</p>
-                    </a>
+                    <div className="portfolio__pages">
+                        <a href="https://github.com/Fronchik/russian-travel" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub</p>
+                        </a>
+                        <a href="https://fronchik.github.io/russian-travel/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub Pages</p>
+                        </a>
+                    </div>
                     <img src={portfolioTravel} alt="Стрелка" className="portfolio__img" />
                 </div>
             </div>
@@ -68,12 +74,14 @@ function Portfolio() {
                     <p className="portfolio__text">HTML, CSS, Bootstrap 4.6.1, JavaScript. Проект "Кипр" — это создание сайта-визитки для путешественников по Кипру,
                         который предлагает информацию и советы для путешественников, планирующих поездку на остров Кипр.
                     </p>
-                    <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub</p>
-                    </a>
-                    <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
-                        <p className="portfolio__link">GitHub Pages</p>
-                    </a>
+                    <div className="portfolio__pages">
+                        <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub</p>
+                        </a>
+                        <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub Pages</p>
+                        </a>
+                    </div>
                     <img src={portfolioCyprus} alt="Стрелка" className="portfolio__img" />
                 </div>
             </div>
