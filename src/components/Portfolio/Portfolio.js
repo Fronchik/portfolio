@@ -18,11 +18,11 @@ function Portfolio() {
                         а также использовать фильтр "короткометражки" для поиска фильмов определенной длительности.
                     </p>
                     <div className="portfolio__pages">
-                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fronchik/movies-explorer-frontend/" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub</p>
                         </a>
-                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                            <p className="portfolio__link">GitHub Pages</p>
+                        <a href="https://movies.fronchik.com/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">Сайт</p>
                         </a>
                     </div>
                     <img src={portfolioFilm} alt="Стрелка" className="portfolio__img" />
@@ -40,8 +40,8 @@ function Portfolio() {
                         <a href="https://github.com/Fronchik/react-mesto-api-full-gha" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub</p>
                         </a>
-                        <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
-                            <p className="portfolio__link">GitHub Pages</p>
+                        <a href="https://mesto.fronchik.com/sign-in" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">Сайт</p>
                         </a>
                     </div>
                     <img src={portfolioMesto} alt="Стрелка" className="portfolio__img" />
