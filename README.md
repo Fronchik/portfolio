@@ -25,9 +25,10 @@
 
 Если у вас есть вопросы или вы хотите связаться со мной, вы можете написать мне по следующим контактам:
 
-Email: AnnaNazarieva@gmail.com
-LinkedIn: linkedin.com/in/anna-nazareva
-GitHub: github.com/Fronchik
-Telegram: t.me/Anna_Nazareva
+- Email: AnnaNazarieva@gmail.com
+- GitHub: github.com/Fronchik
+- Telegram: t.me/Anna_Nazareva
 
 Спасибо за посещение моего портфолио!
+
+Ссылка на портфолио: https://fronchik.com/
