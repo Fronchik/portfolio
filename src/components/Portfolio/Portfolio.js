@@ -19,7 +19,10 @@ function Portfolio() {
                     </p>
                     <div className="portfolio__pages">
                         <a href="https://github.com/Fronchik/movies-explorer-frontend/" target="_blank" rel="noopener noreferrer">
-                            <p className="portfolio__link">GitHub</p>
+                            <p className="portfolio__link">GitHub Frontend</p>
+                        </a>
+                        <a href="https://github.com/Fronchik/movies-explorer-api/" target="_blank" rel="noopener noreferrer">
+                            <p className="portfolio__link">GitHub Backend</p>
                         </a>
                         <a href="https://movies.fronchik.com/" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">Сайт</p>
@@ -78,7 +81,7 @@ function Portfolio() {
                         <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub</p>
                         </a>
-                        <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">
+                        <a href="https://fronchik.github.io/cyprus/" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub Pages</p>
                         </a>
                     </div>
