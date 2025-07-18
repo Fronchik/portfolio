@@ -11,11 +11,11 @@ function Portfolio() {
             <div className="portfolio__container">
                 <p className="portfolio__number">01</p>
                 <div className="portfolio__info">
-                    <p className="portfolio__title">ФИЛЬМЫ</p>
-                    <p className="portfolio__text">HTML, CSS, JavaScript, React, Api. Проект "Фильмы" является моей дипломной работой, выполненной в рамках обучения на Яндекс.Практикуме.
-                        Сайт представляет собой веб-платформу, которая начинается с визитки обо мне и презентации моих проектов. Далее,
-                        после регистрации пользователя, на сайте доступна поисковая система фильмов. Пользователи имеют возможность добавлять фильмы в избранное,
-                        а также использовать фильтр "короткометражки" для поиска фильмов определенной длительности.
+                    <p className="portfolio__title">Movies Project</p>
+                    <p className="portfolio__text">HTML, CSS, JavaScript, React, API.
+                        This project is my graduation work from Yandex.Practicum. It starts with a landing page that introduces me and showcases my portfolio.
+                        After user registration, the site offers a movie search system with the ability to filter by duration (short films) and save favorites.
+                        The project demonstrates my ability to work with React, user authentication, API integration, and responsive design.
                     </p>
                     <div className="portfolio__pages">
                         <a href="https://github.com/Fronchik/movies-explorer-frontend/" target="_blank" rel="noopener noreferrer">
@@ -25,7 +25,7 @@ function Portfolio() {
                             <p className="portfolio__link">GitHub Backend</p>
                         </a>
                         <a href="https://movies.fronchik.com/" target="_blank" rel="noopener noreferrer">
-                            <p className="portfolio__link">Сайт</p>
+                            <p className="portfolio__link">Website</p>
                         </a>
                     </div>
                     <img src={portfolioFilm} alt="Стрелка" className="portfolio__img" />
@@ -34,17 +34,16 @@ function Portfolio() {
             <div className="portfolio__container">
                 <div className="portfolio__number">02</div>
                 <div className="portfolio__info">
-                    <p className="portfolio__title">МЕСТО</p>
-                    <p className="portfolio__text">HTML, CSS, JS, React. Проект "Место" представляет собой платформу, где пользователь, пройдя процесс авторизации,
-                        получает возможность делиться своими путешествиями, загружая фотографии на сайт.
-                        Кроме того, пользователь может оценить понравившиеся посты, поставив лайк, а также удалить собственные фотографии.
+                    <p className="portfolio__title">Mesto Project</p>
+                    <p className="portfolio__text">HTML, CSS, JS, React. Mesto is a web platform where authorized users can share their travel experiences by uploading photos.
+                        Users can like other posts and delete their own. The project demonstrates skills in user authentication, working with dynamic content, and building interactive UI components using React.
                     </p>
                     <div className="portfolio__pages">
                         <a href="https://github.com/Fronchik/react-mesto-api-full-gha" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub</p>
                         </a>
                         <a href="https://mesto.fronchik.com/sign-in" target="_blank" rel="noopener noreferrer">
-                            <p className="portfolio__link">Сайт</p>
+                            <p className="portfolio__link">Website</p>
                         </a>
                     </div>
                     <img src={portfolioMesto} alt="Стрелка" className="portfolio__img" />
@@ -53,11 +52,9 @@ function Portfolio() {
             <div className="portfolio__container">
                 <div className="portfolio__number">03</div>
                 <div className="portfolio__info">
-                    <p className="portfolio__title">ПУТЕШЕСТВИЕ ПО РОССИИ</p>
-                    <p className="portfolio__text">HTML, CSS, БЭМ, Grid, Flex. Проект представляет собой разработку адаптивного веб-сайта с использованием гридов для эффективного макетирования и организации контента на различных разрешениях экрана.
-                        Верстка интерфейса выполнена с учетом макета из Figma, обеспечивая правильное отображение и функциональность всех элементов на различных устройствах и разрешениях экрана.
-                        Сайт описывает интересные места, которые можно посетить во время путешествия по России.
-                        Пользователи могут ознакомиться с различными достопримечательностями, информацией о городах, культуре и истории страны.
+                    <p className="portfolio__title">Russian Travel Project</p>
+                    <p className="portfolio__text">HTML, CSS, БЭМ, Grid, Flex. This project is a fully responsive website built using CSS Grid and Flexbox for optimal layout across different screen sizes.
+                        The interface was developed based on a Figma design, ensuring visual accuracy and functional consistency across devices. The site highlights various places to visit while traveling across Russia, featuring landmarks, cities, cultural insights, and historical background.
                     </p>
                     <div className="portfolio__pages">
                         <a href="https://github.com/Fronchik/russian-travel" target="_blank" rel="noopener noreferrer">
@@ -73,9 +70,9 @@ function Portfolio() {
             <div className="portfolio__container">
                 <div className="portfolio__number">04</div>
                 <div className="portfolio__info">
-                    <p className="portfolio__title">КИПР</p>
-                    <p className="portfolio__text">HTML, CSS, Bootstrap 4.6.1, JavaScript. Проект "Кипр" — это создание сайта-визитки для путешественников по Кипру,
-                        который предлагает информацию и советы для путешественников, планирующих поездку на остров Кипр.
+                    <p className="portfolio__title">Cyprus Project</p>
+                    <p className="portfolio__text">HTML, CSS, Bootstrap 4.6.1, JavaScript. The Cyprus Project is a landing page designed for travelers planning a trip to the island of Cyprus.
+                        It offers helpful information, tips, and inspiration to make their journey smoother and more enjoyable.
                     </p>
                     <div className="portfolio__pages">
                         <a href="https://github.com/Fronchik/cyprus" target="_blank" rel="noopener noreferrer">

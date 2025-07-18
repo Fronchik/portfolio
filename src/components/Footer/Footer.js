@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <div className="footer__title">Портфолио Назарьевой Анны</div>
+            <div className="footer__title">Portfolio Voronina Anna</div>
             <nav className="footer__items">
                 <div className="footer__copyright">
                     &copy; {currentYear}

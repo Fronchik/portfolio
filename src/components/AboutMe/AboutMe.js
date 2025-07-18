@@ -6,7 +6,6 @@ function AboutMe() {
     return (
         <section className="aboutMe">
             <h1 className="aboutMe__title">
-                <span>JUNIOR</span>
                 <span>FRONTEND</span>
                 <span>DEVELOPER</span>
             </h1>
@@ -21,17 +20,10 @@ function AboutMe() {
                 <li className="aboutMe__stack-item">Express.js</li>
             </ul>
             <div className="aboutMe__container">
-                <h2 id="me" className="aboutMe__name">Обо мне</h2>
+                <h2 id="me" className="aboutMe__name">About me</h2>
                 <div className="aboutMe__info">
-                    <p className="aboutMe__info-text">Я начинающий фронтенд-разработчик. Недавно я закончила курсы в Яндекс Практикуме, где получила знания и навыки в области веб-разработки.
-                        Сейчас я участвую в проекте от Яндекс Мастерской, что позволяет мне применять свои знания на практике и развиваться в команде профессионалов.
-                    </p>
-                    <p className="aboutMe__info-text">До того, как я решила сменить карьеру и стать разработчиком, я работала менеджером по аренде. Мой предыдущий опыт помог мне развить навыки управления проектами, общения с клиентами и работы в команде.
-                        Я окончила Российский экономический университет им. Г.В. Плеханова, по специальности "экономист-менеджер".
-                        Помимо работы и учебы, я увлекаюсь путешествиями и фотографией. Мне нравится открывать для себя новые места и запечатлевать яркие моменты жизни через объектив камеры.
-                    </p>
-                    <p className="aboutMe__info-text">Мой следующий шаг - стать опытным разработчиком, который создаёт качественные и удобные для пользователей интерфейсы.
-                        Буду рада новым возможностям и вызовам, которые помогут мне расти и развиваться в этой увлекательной сфере.
+                    <p className="aboutMe__info-text">I'm a Frontend developer with practical experience in creating adaptive and user-friendly interfaces using HTML, CSS, JavaScript, React and TypeScript.
+                        Currently looking for a job or internship in frontend development.
                     </p>
                 </div>
                 <img src={aboutMePhoto} alt="Фото студента" className="aboutMe__info-photo" />
