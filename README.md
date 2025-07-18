@@ -25,9 +25,9 @@
 
 Если у вас есть вопросы или вы хотите связаться со мной, вы можете написать мне по следующим контактам:
 
-- Email: AnnaNazarieva@gmail.com
+- Email: voronina.annya@gmail.com
 - GitHub: github.com/Fronchik
-- Telegram: t.me/Anna_Nazareva
+- Telegram: t.me/Voron_in_A
 
 Спасибо за посещение моего портфолио!
 
