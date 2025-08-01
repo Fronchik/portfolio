@@ -9,7 +9,7 @@ function AboutMe() {
                 <span>FRONTEND</span>
                 <span>DEVELOPER</span>
             </h1>
-            <h2 className="aboutMe__subtitle">STACK</h2>
+            <h2 id="skills" className="aboutMe__subtitle">STACK</h2>
             <ul className="aboutMe__stack">
                 <li className="aboutMe__stack-item">HTML5</li>
                 <li className="aboutMe__stack-item">CSS3</li>

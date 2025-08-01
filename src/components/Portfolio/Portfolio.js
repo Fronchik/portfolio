@@ -7,7 +7,7 @@ import portfolioCyprus from '../../images/cyprus.jpg';
 
 function Portfolio() {
     return (
-        <section className="portfolio">
+        <section id="projects" className="portfolio">
             <div className="portfolio__container">
                 <p className="portfolio__number">01</p>
                 <div className="portfolio__info">
