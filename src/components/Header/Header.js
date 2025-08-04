@@ -209,28 +209,45 @@ class Header extends React.Component {
                 </div>
                 <header className="header">
                     <div className="header__nav">
+                        <h2 className="header__name">Anna Voronina</h2>
                         <a href="#me">
-                            <div className="header__link">
+                            <div className="header__box">
                                 <p className="header__title">about me</p>
                             </div>
                         </a>
                         <a href="#projects">
-                            <div className="header__link">
+                            <div className="header__box">
                                 <p className="header__title">projects</p>
                             </div>
                         </a>
                         <a href="#skills">
-                            <div className="header__link">
+                            <div className="header__box">
                                 <p className="header__title">skills</p>
                             </div>
                         </a>
-                        <a href="#contact">
-                            <div className="header__link">
-                                <p className="header__title">contacts</p>
-                            </div>
-                        </a>
+                        <div className="header__contacts">
+                            <a href="https://github.com/Fronchik/" target="_blank" rel="noopener noreferrer">
+                                <div className="header__link">
+                                    <p className="header__title">GitHub</p>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/voronina-anna/" target="_blank" rel="noopener noreferrer">
+                                <div className="header__link">
+                                    <p className="header__title">Linkedin</p>
+                                </div>
+                            </a>
+                            <a href="mailto:voronina.annya@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <div className="header__link">
+                                    <p className="header__title">Gmail</p>
+                                </div>
+                            </a>
+                            <a href="https://t.me/Voron_in_A" target="_blank" rel="noopener noreferrer">
+                                <div className="header__link">
+                                    <p className="header__title">Telegram</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-
                 </header>
             </>
         );
