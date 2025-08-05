@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import Particles from '../Particles/Particles';
 import Header from '../Header/Header';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
@@ -9,6 +10,7 @@ function Main() {
 
     return (
         <>
+            <Particles />
             <Header />
             <main>
                 <AboutMe />
