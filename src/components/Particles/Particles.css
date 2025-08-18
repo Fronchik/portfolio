@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     z-index: -2;
+    overflow: hidden;
 }
 
 #particles__stars {
@@ -38,4 +39,15 @@
     transform: translate(100vw, 100vh);
     opacity: 0;
   }
+}
+
+.animation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
 }

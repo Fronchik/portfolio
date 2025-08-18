@@ -8,6 +8,16 @@
     color: #FFFFFF;
 }
 
+.skills__text {
+    margin: 25px 0 30px;
+    min-width: 100px;
+    height: 30px;
+    
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
 .skills__stack {
     margin: 0 auto;
     padding: 0;

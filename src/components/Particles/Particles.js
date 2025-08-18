@@ -187,13 +187,17 @@ class Particles extends React.Component {
     }
 
     createShootingStars() {
+        this.animationContainer = document.createElement('div');
+        this.animationContainer.className = 'animation-container';
+        document.body.appendChild(this.animationContainer);
+
         setInterval(() => {
             const star = document.createElement('div');
             star.className = 'shooting-star';
             star.style.left = Math.random() * 100 + 'vw';
             star.style.top = Math.random() * 50 + 'vh';
             star.style.animationDuration = Math.random() * 2 + 1 + 's';
-            document.body.appendChild(star);
+            this.animationContainer.appendChild(star);
             setTimeout(() => {
                 star.remove();
             }, parseFloat(star.style.animationDuration) * 1000);
@@ -202,12 +206,10 @@ class Particles extends React.Component {
 
     render() {
         return (
-            <>
-                <div className="particles">
-                    <div id="particles__stars"></div>
-                    <div id="particles__circles"></div>
-                </div>
-            </>
+            <div className="particles">
+                <div id="particles__stars"></div>
+                <div id="particles__circles"></div>
+            </div>
         );
     }
 }
