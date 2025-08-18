@@ -80,6 +80,17 @@ a:link, a:visited {
     
 @media (max-width: 780px) {
     .header {
+        max-height: 80px;
+        padding-bottom: 30px;
         flex-direction: column;
+        gap: 5px;
+    }
+
+    .header__name {
+        margin-left: 0;
+    }
+
+    .header__contacts {
+        margin-right: 0;
     }
 }
