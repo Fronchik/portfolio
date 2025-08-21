@@ -89,6 +89,7 @@
 
     .aboutMe__info {
         max-width: 500px;
+        margin-left: 0;
     }
 }
 
@@ -193,6 +194,10 @@
     .aboutMe__title {
         padding-top: 20px;
         font-size: 40px;
+    }
+
+     .aboutMe__info {
+        margin-left: auto;
     }
 
     .aboutMe__info-text {
