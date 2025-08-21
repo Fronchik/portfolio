@@ -14,7 +14,9 @@ function AboutMe() {
                         </p>
                     </div>
                 </div>
-                <img src={aboutMePhoto} alt="Фото фронтенд-разработчика" className="aboutMe__info-photo" />
+                <div className="aboutMe__photo">
+                    <img src={aboutMePhoto} alt="Фото фронтенд-разработчика" className="aboutMe__photo-img" />
+                </div>
             </div>
         </section>
     );
