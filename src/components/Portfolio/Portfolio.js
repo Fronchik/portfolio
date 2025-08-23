@@ -28,7 +28,9 @@ function Portfolio() {
                             <p className="portfolio__link">Website</p>
                         </a>
                     </div>
-                    <img src={portfolioFilm} alt="Стрелка" className="portfolio__img" />
+                    <div className="portfolio__box">
+                        <img src={portfolioFilm} alt="Кинопоиск" className="portfolio__box-img" />
+                    </div>
                 </div>
             </div>
             <div className="portfolio__container">
@@ -46,7 +48,9 @@ function Portfolio() {
                             <p className="portfolio__link">Website</p>
                         </a>
                     </div>
-                    <img src={portfolioMesto} alt="Стрелка" className="portfolio__img" />
+                    <div className="portfolio__box">
+                        <img src={portfolioMesto} alt="Место" className="portfolio__box-img" />
+                    </div>
                 </div>
             </div>
             <div className="portfolio__container">
@@ -64,7 +68,9 @@ function Portfolio() {
                             <p className="portfolio__link">GitHub Pages</p>
                         </a>
                     </div>
-                    <img src={portfolioTravel} alt="Стрелка" className="portfolio__img" />
+                    <div className="portfolio__box">
+                        <img src={portfolioTravel} alt="Путешествия" className="portfolio__box-img" />
+                    </div>
                 </div>
             </div>
             <div className="portfolio__container">
@@ -82,7 +88,9 @@ function Portfolio() {
                             <p className="portfolio__link">GitHub Pages</p>
                         </a>
                     </div>
-                    <img src={portfolioCyprus} alt="Стрелка" className="portfolio__img" />
+                    <div className="portfolio__box">
+                        <img src={portfolioCyprus} alt="Кипр" className="portfolio__box-img" />
+                    </div>
                 </div>
             </div>
         </section>
