@@ -2,7 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 import portfolioFilm from '../../images/films.jpg';
 import portfolioMesto from '../../images/mesto.jpg';
-import portfolioTravel from '../../images/travel.jpg';
+import portfolioKosmos from '../../images/kosmos.jpg';
 import portfolioCyprus from '../../images/cyprus.jpg';
 
 function Portfolio() {
@@ -56,20 +56,20 @@ function Portfolio() {
             <div className="portfolio__container">
                 <div className="portfolio__number">03</div>
                 <div className="portfolio__info">
-                    <p className="portfolio__title">Russian Travel Project</p>
-                    <p className="portfolio__text">HTML, CSS, БЭМ, Grid, Flex. This project is a fully responsive website built using CSS Grid and Flexbox for optimal layout across different screen sizes.
-                        The interface was developed based on a Figma design, ensuring visual accuracy and functional consistency across devices. The site highlights various places to visit while traveling across Russia, featuring landmarks, cities, cultural insights, and historical background.
+                    <p className="portfolio__title">The Immense Universe Project</p>
+                    <p className="portfolio__text">HTML, CSS, БЭМ, Grid, Flex. This project is a fully responsive website built using CSS Grid and Flexbox for optimal layout on different screen sizes.
+                        The site features various planets, interesting facts about space.
                     </p>
                     <div className="portfolio__pages">
-                        <a href="https://github.com/Fronchik/russian-travel" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fronchik/kosmos" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub</p>
                         </a>
-                        <a href="https://fronchik.github.io/russian-travel/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://fronchik.github.io/kosmos/" target="_blank" rel="noopener noreferrer">
                             <p className="portfolio__link">GitHub Pages</p>
                         </a>
                     </div>
                     <div className="portfolio__box">
-                        <img src={portfolioTravel} alt="Путешествия" className="portfolio__box-img" />
+                        <img src={portfolioKosmos} alt="Путешествия" className="portfolio__box-img" />
                     </div>
                 </div>
             </div>
