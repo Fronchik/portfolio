@@ -27,6 +27,6 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           source: "build/"
-          target: /home/${{ secrets.USER }}/fronchik/fronchik.com/build
+          target: /home/${{ secrets.USER }}/fronchik/fronchik.com
           rm: true
           args: -r
