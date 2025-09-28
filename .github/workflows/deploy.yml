@@ -36,5 +36,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          source: "build/*"
-          target: "/home/${{ secrets.USER }}/fronchik/fronchik.com/build"
+          source: "build/"
+          target: "/home/${{ secrets.USER }}/fronchik/fronchik.com"
