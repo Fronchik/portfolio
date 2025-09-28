@@ -20,6 +20,16 @@ jobs:
           npm ci
           npm run build
 
+      - name: Remove old build directory
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            rm -rf /home/${{ secrets.USER }}/fronchik/fronchik.com/build
+            mkdir -p /home/${{ secrets.USER }}/fronchik/fronchik.com/build
+
       - name: Deploy application
         uses: appleboy/scp-action@v0.1.4
         with:
@@ -27,6 +37,4 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           source: "build/*"
-          target: /home/${{ secrets.USER }}/fronchik/fronchik.com/build
-          rm: true
-          args: -r
+          target: "/home/${{ secrets.USER }}/fronchik/fronchik.com/build"
