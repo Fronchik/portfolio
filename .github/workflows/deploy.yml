@@ -3,14 +3,18 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    types:
-      - closed
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
       - name: Build React app
         run: |
           npm ci
@@ -26,4 +30,3 @@ jobs:
           target: /home/${{ secrets.USER }}/fronchik/fronchik.com/build
           rm: true
           args: -r
-
