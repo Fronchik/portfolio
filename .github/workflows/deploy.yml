@@ -1,0 +1,29 @@
+name: "Deploy"
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - closed
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
+    steps:
+      - name: Build React app
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy application
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "build/"
+          target: /home/${{ secrets.USER }}/fronchik/fronchik.com/build
+          rm: true
+          args: -r
+
