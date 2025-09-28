@@ -38,3 +38,13 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           source: "build/"
           target: "/home/${{ secrets.USER }}/fronchik/fronchik.com"
+
+      - name: Restart container
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /home/${{ secrets.USER }}/fronchik/fronchik.com
+            docker-compose restart fronchik
